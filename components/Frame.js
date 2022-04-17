@@ -68,7 +68,7 @@ const index = () => {
                             <span className='text-xl bg-cyan-500 py-1 px-3 text-white rounded-lg'><span>{val.rating}</span> <span>★</span></span>
                             <span className='text-5xl'>♡</span>
                         </div>
-                        <div className=' px-7'>
+                        <div className=' px-7 flex w-full items-center justify-center '>
                             <Image src={val.image} alt="" />
                         </div>
                         <div className='flex md:items-center items-start md:justify-center justify-start flex-col gap-3'>
