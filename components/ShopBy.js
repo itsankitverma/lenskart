@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const ShopBy = () => {
     return (
-        <div className='fixed bottom-0 bg-white w-full py-2'>
+        <div className='fixed bottom-0 bg-white w-full'>
             <div className='flex justify-evenly'>
                 <div className=' flex items-center justify-center flex-col'>
                     <div className='w-16 h-16 rounded-full bg-black flex items-center justify-center ' />          <h2>Black</h2>
