@@ -72,14 +72,14 @@ const index = () => {
                             <Image src={val.image} alt="" />
                         </div>
                         <div className='flex md:items-center items-start md:justify-center justify-start flex-col gap-3'>
-                            <div>
+                            <div className="pl-5">
                                 <h4 className='font-semibold'>{val.title}</h4>
                                 <h4><span className='text-cyan-500 font-bold'>₹{val.price}</span> <span className='line-through'>₹{val.subPrice}</span></h4>
                                 <h4 className='font-bold'>Frame width: {val.frameWidth}mm</h4>
                                 <h4>Frame Size: <span className='font-bold'>{val.frameSize
                                 }</span></h4>
                             </div>
-                            <div className='flex  justify-center gap-5'>
+                            <div className='flex w-full items-center justify-center gap-5'>
                                 <button className='px-3 py-2 bg-cyan-500 text-white rounded-full'>Normal</button>
                                 <button>Try on 3D</button>
                             </div>
