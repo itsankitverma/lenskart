@@ -63,7 +63,7 @@ const index = () => {
         <div className='pb-48 flex w-full flex-wrap justify-center items-center gap-1 bg-white'>
             {frames.map((val, id) => {
                 return (
-                    <div className='w-full md:w-56 flex flex-col gap-10 rounded-lg border-[1px] border-black pb-2' key={id}>
+                    <div className='w-72 md:w-56 flex flex-col gap-10 rounded-lg border-[1px] border-black pb-2' key={id}>
                         <div className='flex justify-between items-center px-5'>
                             <span className='text-xl bg-cyan-500 py-1 px-3 text-white rounded-lg'><span>{val.rating}</span> <span>★</span></span>
                             <span className='text-5xl'>♡</span>
