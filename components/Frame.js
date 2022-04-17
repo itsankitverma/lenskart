@@ -71,7 +71,7 @@ const index = () => {
                         <div className=' px-7'>
                             <Image src={val.image} alt="" />
                         </div>
-                        <div className='flex items-center justify-center flex-col gap-3'>
+                        <div className='flex md:items-center items-start md:justify-center justify-start flex-col gap-3'>
                             <div>
                                 <h4 className='font-semibold'>{val.title}</h4>
                                 <h4><span className='text-cyan-500 font-bold'>₹{val.price}</span> <span className='line-through'>₹{val.subPrice}</span></h4>
