@@ -6,7 +6,7 @@ import { BsHeart } from 'react-icons/bs';
 const HeaderTitle = () => {
   return (
 
-      <div className='w-full flex justify-evenly py-5 items-center bg-slate-800 text-white'>
+      <div className='w-full flex justify-evenly py-5 items-center sticky top-0 bg-slate-800 text-white'>
         <IoMdArrowRoundBack className='text-3xl' />
         <h2>Vincent Chase Round</h2>
         <div className='flex gap-3'>
