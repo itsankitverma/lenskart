@@ -60,7 +60,7 @@ const index = () => {
         }
     ]
     return (
-        <div className='pb-48 flex w-full flex-wrap justify-center items-center gap-2 bg-white'>
+        <div className='pb-48 flex w-full flex-wrap justify-center items-center gap-1 bg-white'>
             {frames.map((val, id) => {
                 return (
                     <div className='w-48 flex flex-col gap-10 rounded-lg border-[1px] border-black pb-2' key={id}>
