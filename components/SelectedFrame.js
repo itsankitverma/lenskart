@@ -5,7 +5,7 @@ import Options from './Options'
 const SelectedFrame = ({ selectedFrame }) => {
     console.log(selectedFrame)
     return (
-        <div className='px-10 w-full grid gap-5'>
+        <div className='w-full grid gap-5'>
             <div className='w-full grid gap-7'>
                 <Image src={selectedFrame.wideImage.src} alt="" width={selectedFrame.wideImage.width} height={selectedFrame.wideImage.height} />
                 <div className='flex w-full items-center justify-center gap-1'>
